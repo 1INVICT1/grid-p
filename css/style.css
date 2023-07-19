@@ -1,0 +1,53 @@
+/* line 1, ../grid-p/sass/base/_base.sass */
+html {
+  font-size: 62.5%;
+}
+
+/* line 4, ../grid-p/sass/base/_base.sass */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 1, ../grid-p/sass/base/_typography.sass */
+.img1, .img2, .img3, .img4 {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+/* line 1, ../grid-p/sass/content/_box.sass */
+.container {
+  border: .3rem solid black;
+  padding: 0rem 10rem;
+}
+
+/* line 7, ../grid-p/sass/content/_box.sass */
+.header__grid {
+  display: grid;
+}
+
+/* line 3, ../grid-p/sass/content/_insideBox.sass */
+.header__link {
+  display: grid;
+  grid-template-columns: repeat(8, 20rem);
+}
+
+/* line 8, ../grid-p/sass/content/_insideBox.sass */
+.header__logo {
+  display: grid;
+}
+
+/* line 12, ../grid-p/sass/content/_insideBox.sass */
+.header__item {
+  display: grid;
+  grid-template-columns: repeat(3, 20rem);
+}
+
+/* line 16, ../grid-p/sass/content/_insideBox.sass */
+.header__icon {
+  display: grid;
+  justify-items: end;
+  grid-template-columns: repeat(4, 20rem);
+}
+
+/*# sourceMappingURL=style.css.map */

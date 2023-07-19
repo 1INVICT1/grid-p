@@ -1,0 +1,22 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass",
+		"../sass/components/_variable.sass",
+		"../sass/base/_base.sass",
+		"../sass/base/_typography.sass",
+		"../sass/content/_box.sass",
+		"../sass/content/_insideBox.sass"
+	],
+	"sourcesContent": [
+		"@import \"components/variable.sass\";\n\n@import \"base/base.sass\";\n@import \"base/typography.sass\";\n\n@import \"content/box.sass\";\n@import \"content/insideBox.sass\";\n",
+		"",
+		"html {\n    font-size: 62.5%; }\n\nbody {\n    padding: 0;\n    margin: 0; }\n",
+		".img1, .img2, .img3, .img4 {\n    width: 2.4rem;\n    height: 2.4rem; }\n",
+		".container {\n    border: .3rem solid black;\n    padding: 0rem 10rem; }\n\n.header {\n\n    &__grid {\n        display: grid;\n } }        // grid-template-columns: repeat(7, 20rem)\n",
+		".header {\n\n    &__link {\n        display: grid;\n        grid-template-columns: repeat(8, 20rem);\n }        // // grid-template-rows: repeat( 20rem)\n\n    &__logo {\n        display: grid; }\n\n\n    &__item {\n        display: grid;\n        grid-template-columns: repeat(3, 20rem); }\n\n    &__icon {\n        // border: .2rem solid black\n        display: grid;\n        justify-items: end;\n        grid-template-columns: repeat(4, 20rem); } }\n"
+	],
+	"names": [],
+	"mappings": ";AEAA,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,KAAK;CAAG;;;AAEvB,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CAAG;;;ACLhB,AAAA,KAAK,EAAE,KAAK,EAAE,KAAK,EAAE,KAAK,CAAC;EACvB,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;CAAG;;;ACFrB,AAAA,UAAU,CAAC;EACP,MAAM,EAAE,iBAAiB;EACzB,OAAO,EAAE,UAAU;CAAG;;;AAIrB,AAAD,aAAO,CAAC;EACJ,OAAO,EAAE,IAAI;CACnB;;;ACNG,AAAD,aAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,gBAAgB;CAC7C;;;AAEG,AAAD,aAAO,CAAC;EACJ,OAAO,EAAE,IAAI;CAAG;;;AAGnB,AAAD,aAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,gBAAgB;CAAG;;;AAE7C,AAAD,aAAO,CAAC;EAEJ,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,GAAG;EAClB,qBAAqB,EAAE,gBAAgB;CAAG"
+}
