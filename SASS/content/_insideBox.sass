@@ -1,20 +1,36 @@
 .header
 
     &__link
-        display: grid
-        grid-template-columns: repeat(8, 20rem)
-        // // grid-template-rows: repeat( 20rem)
+        // border: .1rem solid black
+        
+        display: flex
+        height: 9.2rem
+        width: 100%
+        justify-content: space-between
 
+        
     &__logo
-        display: grid
+        // border: .1rem solid black
+        margin-right: 7.9rem
 
 
     &__item
+        // border: .1rem solid black
         display: grid
-        grid-template-columns: repeat(3, 20rem)
+        align-items: center
+        grid-template-columns: 2.5rem 4.5rem 5rem
+        column-gap: 3.2rem
+
+        &-1
+            @include textDecor
+        &-2
+            @include textDecor
+        &-3
+            @include textDecor
 
     &__icon
-        // border: .2rem solid black
         display: grid
-        justify-items: end
-        grid-template-columns: repeat(4, 20rem)
+        align-items: center
+        grid-template-columns: repeat(4, 1.7rem)
+        column-gap: 2.4rem
+

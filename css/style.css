@@ -5,49 +5,138 @@ html {
 
 /* line 4, ../grid-p/sass/base/_base.sass */
 body {
+  font-family: 'Manrope', sans-serif;
   padding: 0;
   margin: 0;
 }
 
 /* line 1, ../grid-p/sass/base/_typography.sass */
 .img1, .img2, .img3, .img4 {
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+/* line 7, ../grid-p/sass/base/_typography.sass */
+.header__logo {
+  height: 3.4rem;
+}
+
+/* line 10, ../grid-p/sass/base/_typography.sass */
+.header__item {
+  line-height: 2.7rem;
+  font-size: 1.8;
+}
+
+/* line 14, ../grid-p/sass/base/_typography.sass */
+ul, li {
+  list-style-type: none;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+/* line 19, ../grid-p/sass/base/_typography.sass */
+.logo1 {
+  height: 3.4rem;
+  width: 14.8rem;
 }
 
 /* line 1, ../grid-p/sass/content/_box.sass */
-.container {
-  border: .3rem solid black;
-  padding: 0rem 10rem;
+.wrapper {
+  background-color: #F6F6F6;
 }
 
-/* line 7, ../grid-p/sass/content/_box.sass */
-.header__grid {
-  display: grid;
+/* line 4, ../grid-p/sass/content/_box.sass */
+.container {
+  padding: 0rem 10rem;
+  max-width: 144rem;
+}
+
+/* line 9, ../grid-p/sass/content/_box.sass */
+.header {
+  background-color: #fff;
+  margin-bottom: 5.8rem;
+}
+
+/* line 13, ../grid-p/sass/content/_box.sass */
+.header__position {
+  display: flex;
+  align-items: center;
+}
+
+/* line 17, ../grid-p/sass/content/_box.sass */
+.title {
+  background-color: #F6F6F6;
+  margin-bottom: 5.4rem;
+}
+
+/* line 21, ../grid-p/sass/content/_box.sass */
+.title__position {
+  height: 16.8rem;
+}
+
+/* line 24, ../grid-p/sass/content/_box.sass */
+.main {
+  background-color: #F6F6F6;
+  margin-bottom: 14.7rem;
+}
+
+/* line 28, ../grid-p/sass/content/_box.sass */
+.main__position {
+  height: 106.5rem;
+}
+
+/* line 31, ../grid-p/sass/content/_box.sass */
+.footer {
+  background-color: #fff;
+}
+
+/* line 34, ../grid-p/sass/content/_box.sass */
+.footer__position {
+  height: 9.2rem;
 }
 
 /* line 3, ../grid-p/sass/content/_insideBox.sass */
 .header__link {
-  display: grid;
-  grid-template-columns: repeat(8, 20rem);
-}
-
-/* line 8, ../grid-p/sass/content/_insideBox.sass */
-.header__logo {
-  display: grid;
+  display: flex;
+  height: 9.2rem;
+  width: 100%;
+  justify-content: space-between;
 }
 
 /* line 12, ../grid-p/sass/content/_insideBox.sass */
-.header__item {
-  display: grid;
-  grid-template-columns: repeat(3, 20rem);
+.header__logo {
+  margin-right: 7.9rem;
 }
 
-/* line 16, ../grid-p/sass/content/_insideBox.sass */
+/* line 17, ../grid-p/sass/content/_insideBox.sass */
+.header__item {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2.5rem 4.5rem 5rem;
+  column-gap: 3.2rem;
+}
+
+/* line 24, ../grid-p/sass/content/_insideBox.sass */
+.header__item-1 {
+  text-decoration: none;
+}
+
+/* line 26, ../grid-p/sass/content/_insideBox.sass */
+.header__item-2 {
+  text-decoration: none;
+}
+
+/* line 28, ../grid-p/sass/content/_insideBox.sass */
+.header__item-3 {
+  text-decoration: none;
+}
+
+/* line 31, ../grid-p/sass/content/_insideBox.sass */
 .header__icon {
   display: grid;
-  justify-items: end;
-  grid-template-columns: repeat(4, 20rem);
+  align-items: center;
+  grid-template-columns: repeat(4, 1.7rem);
+  column-gap: 2.4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
