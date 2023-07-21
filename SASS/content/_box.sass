@@ -1,13 +1,12 @@
 .wrapper
-    background-color: #F6F6F6
+    background-color: $back-color
 
 .container
-    // border: .3rem solid black
+    border: .3rem solid black
     padding: 0rem 10rem
-    max-width: 144rem
     
 .header
-    background-color: #fff
+    background-color: $color-white
     margin-bottom: 5.8rem
 
     &__position
@@ -15,21 +14,27 @@
         align-items: center
     
 .title
-    background-color: #F6F6F6
+    background-color: $back-color
     margin-bottom: 5.4rem
+    width: 100%
 
     &__position
+        border: .1rem solid black
+        display: flex
+        justify-content: space-between
+        padding-right: 6.3rem
         height: 16.8rem
     
 .main
-    background-color: #F6F6F6
+    background-color: $back-color
     margin-bottom: 14.7rem
 
     &__position
         height: 106.5rem
 
 .footer
-    background-color: #fff
+    background-color: $color-white
 
     &__position
+        display: flex
         height: 9.2rem
