@@ -1,9 +1,10 @@
 /* line 1, ../grid-p/sass/base/_base.sass */
 html {
   font-size: 62.5%;
+  background-color: #F6F6F6;
 }
 
-/* line 4, ../grid-p/sass/base/_base.sass */
+/* line 5, ../grid-p/sass/base/_base.sass */
 body {
   font-family: 'Manrope', sans-serif;
   max-width: 144rem;
