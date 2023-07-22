@@ -1,54 +1,65 @@
 .header
 
     &__link
-        // border: .1rem solid black
         display: flex
         height: 9.2rem
         width: 100%
         justify-content: space-between
 
-        
     &__logo
-        // border: .1rem solid black
         margin-right: 7.9rem
         align-self: center
         height: 100%
 
-
     &__item
-        // border: .1rem solid black
         display: grid
         align-items: center
         grid-template-columns: 4.4rem 7.9rem 9.2rem
         column-gap: 3.2rem
         color: $color-white
 
-        // &-1
-        //     border: .1rem solid black
-        //     @include textDecor
-
-        // &-2
-        //     border: .1rem solid black
-        //     @include textDecor
-
-        // &-3
-        //     border: .1rem solid black
-            
     &__icon
         display: grid
         align-items: center
         grid-template-columns: repeat(4, 1.7rem)
         column-gap: 2.4rem
 
-.title
+.main
 
-    &__title
-        border: .1rem solid black
-        
+    &__item
+        display: grid
+        grid-template-columns: repeat(4, 29.5rem)
+        grid-template-rows: repeat(3, 31.1rem)
+        gap: 2rem
 
+        &-1
+            display: grid
+            padding: 1.6rem
+
+        &-2
+            display: grid
+            padding: 1.6rem
+
+        &-3
+            display: grid
+            padding: 1.6rem
+
+        &-4
+            display: grid
+            padding: 1.6rem
+
+    &__down
+        display: flex
+        justify-content: space-between
+        align-items: flex-end
+        height: 100%
+        width: 100%
+  
     &__text
-        // border: .1rem solid black
-        
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        height: 100%
 
 
 .footer
@@ -56,32 +67,16 @@
     &__link
         display: flex
         justify-content: space-between
-
         width: 100%
 
     &__item
-        // border: .1rem solid black
         display: grid
         align-items: center
         grid-template-columns: 11.5rem 16.3rem
         column-gap: 4.5rem
 
-        // &-1
-        //     border: .1rem solid black
-        
-        // &-2
-        //     border: .1rem solid black
-
     &__icon
-        border: .1rem solid black
         display: grid
         align-items: center
         grid-template-columns: 2.4rem 2.4rem
         column-gap: 2.4rem
-
-        // &-1
-        //     border: .1rem solid black
-
-        // &-2
-        //     border: .1rem solid black
-

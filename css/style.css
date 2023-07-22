@@ -6,59 +6,66 @@ html {
 /* line 4, ../grid-p/sass/base/_base.sass */
 body {
   font-family: 'Manrope', sans-serif;
+  max-width: 144rem;
+  margin: 0 auto;
   padding: 0;
-  margin: 0;
 }
 
 /* line 1, ../grid-p/sass/base/_typography.sass */
-.img1, .img2, .img3, .img4, .img5, .img6 {
+.img1, .img2, .img3, .img4, .img9, .img10 {
   width: 2.4rem;
   height: 2.4rem;
 }
 
 /* line 5, ../grid-p/sass/base/_typography.sass */
+.img5, .img6, .img7, .img8 {
+  height: 19.5rem;
+  width: 20.6rem;
+}
+
+/* line 9, ../grid-p/sass/base/_typography.sass */
 ul, li {
   list-style-type: none;
   padding: 0rem;
   margin: 0rem;
 }
 
-/* line 10, ../grid-p/sass/base/_typography.sass */
+/* line 14, ../grid-p/sass/base/_typography.sass */
 .logo1 {
   height: 3.4rem;
   width: 14.8rem;
 }
 
-/* line 16, ../grid-p/sass/base/_typography.sass */
+/* line 21, ../grid-p/sass/base/_typography.sass */
 .header__logo {
   height: 3.4rem;
 }
 
-/* line 19, ../grid-p/sass/base/_typography.sass */
+/* line 24, ../grid-p/sass/base/_typography.sass */
 .header__item {
   line-height: 2.7rem;
   font-size: 1.8rem;
 }
 
-/* line 23, ../grid-p/sass/base/_typography.sass */
+/* line 28, ../grid-p/sass/base/_typography.sass */
 .header__item-1 {
   color: #000;
   text-decoration: none;
 }
 
-/* line 27, ../grid-p/sass/base/_typography.sass */
+/* line 32, ../grid-p/sass/base/_typography.sass */
 .header__item-2 {
   color: #000;
   text-decoration: none;
 }
 
-/* line 31, ../grid-p/sass/base/_typography.sass */
+/* line 36, ../grid-p/sass/base/_typography.sass */
 .header__item-3 {
   color: #000;
   text-decoration: none;
 }
 
-/* line 37, ../grid-p/sass/base/_typography.sass */
+/* line 43, ../grid-p/sass/base/_typography.sass */
 .title__title {
   color: #000;
   text-transform: uppercase;
@@ -67,32 +74,62 @@ ul, li {
   width: 24.2rem;
 }
 
-/* line 44, ../grid-p/sass/base/_typography.sass */
+/* line 50, ../grid-p/sass/base/_typography.sass */
 .title__text {
   color: #000;
   font-size: 1.8rem;
   width: 88.7rem;
 }
 
-/* line 53, ../grid-p/sass/base/_typography.sass */
+/* line 60, ../grid-p/sass/base/_typography.sass */
+.main__item-1 {
+  background-color: #fff;
+}
+
+/* line 63, ../grid-p/sass/base/_typography.sass */
+.main__item-2 {
+  background-color: #fff;
+}
+
+/* line 66, ../grid-p/sass/base/_typography.sass */
+.main__item-3 {
+  background-color: #fff;
+}
+
+/* line 69, ../grid-p/sass/base/_typography.sass */
+.main__item-4 {
+  background-color: #fff;
+}
+
+/* line 72, ../grid-p/sass/base/_typography.sass */
+.main__text {
+  font-size: 1.8rem;
+}
+
+/* line 75, ../grid-p/sass/base/_typography.sass */
+.main__price {
+  font-weight: bold;
+}
+
+/* line 81, ../grid-p/sass/base/_typography.sass */
 .footer__item {
   line-height: 2.7rem;
   font-size: 1.8rem;
 }
 
-/* line 57, ../grid-p/sass/base/_typography.sass */
+/* line 85, ../grid-p/sass/base/_typography.sass */
 .footer__item-1 {
   color: #000;
   text-decoration: none;
 }
 
-/* line 61, ../grid-p/sass/base/_typography.sass */
+/* line 89, ../grid-p/sass/base/_typography.sass */
 .footer__item-2 {
   color: #000;
   text-decoration: none;
 }
 
-/* line 65, ../grid-p/sass/base/_typography.sass */
+/* line 93, ../grid-p/sass/base/_typography.sass */
 .footer__item-3 {
   color: #000;
   text-decoration: none;
@@ -105,55 +142,59 @@ ul, li {
 
 /* line 4, ../grid-p/sass/content/_box.sass */
 .container {
-  border: .3rem solid black;
   padding: 0rem 10rem;
 }
 
-/* line 8, ../grid-p/sass/content/_box.sass */
+/* line 7, ../grid-p/sass/content/_box.sass */
 .header {
   background-color: #fff;
   margin-bottom: 5.8rem;
 }
 
-/* line 12, ../grid-p/sass/content/_box.sass */
+/* line 11, ../grid-p/sass/content/_box.sass */
 .header__position {
   display: flex;
   align-items: center;
 }
 
-/* line 16, ../grid-p/sass/content/_box.sass */
+/* line 15, ../grid-p/sass/content/_box.sass */
 .title {
   background-color: #F6F6F6;
   margin-bottom: 5.4rem;
   width: 100%;
 }
 
-/* line 21, ../grid-p/sass/content/_box.sass */
+/* line 20, ../grid-p/sass/content/_box.sass */
 .title__position {
-  border: .1rem solid black;
   display: flex;
   justify-content: space-between;
   padding-right: 6.3rem;
   height: 16.8rem;
 }
 
-/* line 28, ../grid-p/sass/content/_box.sass */
+/* line 26, ../grid-p/sass/content/_box.sass */
 .main {
   background-color: #F6F6F6;
   margin-bottom: 14.7rem;
 }
 
-/* line 32, ../grid-p/sass/content/_box.sass */
+/* line 30, ../grid-p/sass/content/_box.sass */
 .main__position {
   height: 106.5rem;
 }
 
-/* line 35, ../grid-p/sass/content/_box.sass */
+/* line 33, ../grid-p/sass/content/_box.sass */
+.main__img {
+  display: grid;
+  justify-content: center;
+}
+
+/* line 38, ../grid-p/sass/content/_box.sass */
 .footer {
   background-color: #fff;
 }
 
-/* line 38, ../grid-p/sass/content/_box.sass */
+/* line 41, ../grid-p/sass/content/_box.sass */
 .footer__position {
   display: flex;
   height: 9.2rem;
@@ -167,14 +208,14 @@ ul, li {
   justify-content: space-between;
 }
 
-/* line 11, ../grid-p/sass/content/_insideBox.sass */
+/* line 9, ../grid-p/sass/content/_insideBox.sass */
 .header__logo {
   margin-right: 7.9rem;
   align-self: center;
   height: 100%;
 }
 
-/* line 18, ../grid-p/sass/content/_insideBox.sass */
+/* line 14, ../grid-p/sass/content/_insideBox.sass */
 .header__item {
   display: grid;
   align-items: center;
@@ -183,7 +224,7 @@ ul, li {
   color: #fff;
 }
 
-/* line 37, ../grid-p/sass/content/_insideBox.sass */
+/* line 21, ../grid-p/sass/content/_insideBox.sass */
 .header__icon {
   display: grid;
   align-items: center;
@@ -191,19 +232,63 @@ ul, li {
   column-gap: 2.4rem;
 }
 
-/* line 45, ../grid-p/sass/content/_insideBox.sass */
-.title__title {
-  border: .1rem solid black;
+/* line 29, ../grid-p/sass/content/_insideBox.sass */
+.main__item {
+  display: grid;
+  grid-template-columns: repeat(4, 29.5rem);
+  grid-template-rows: repeat(3, 31.1rem);
+  gap: 2rem;
 }
 
-/* line 56, ../grid-p/sass/content/_insideBox.sass */
+/* line 35, ../grid-p/sass/content/_insideBox.sass */
+.main__item-1 {
+  display: grid;
+  padding: 1.6rem;
+}
+
+/* line 39, ../grid-p/sass/content/_insideBox.sass */
+.main__item-2 {
+  display: grid;
+  padding: 1.6rem;
+}
+
+/* line 43, ../grid-p/sass/content/_insideBox.sass */
+.main__item-3 {
+  display: grid;
+  padding: 1.6rem;
+}
+
+/* line 47, ../grid-p/sass/content/_insideBox.sass */
+.main__item-4 {
+  display: grid;
+  padding: 1.6rem;
+}
+
+/* line 51, ../grid-p/sass/content/_insideBox.sass */
+.main__down {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 58, ../grid-p/sass/content/_insideBox.sass */
+.main__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* line 67, ../grid-p/sass/content/_insideBox.sass */
 .footer__link {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-/* line 62, ../grid-p/sass/content/_insideBox.sass */
+/* line 72, ../grid-p/sass/content/_insideBox.sass */
 .footer__item {
   display: grid;
   align-items: center;
@@ -211,9 +296,8 @@ ul, li {
   column-gap: 4.5rem;
 }
 
-/* line 75, ../grid-p/sass/content/_insideBox.sass */
+/* line 78, ../grid-p/sass/content/_insideBox.sass */
 .footer__icon {
-  border: .1rem solid black;
   display: grid;
   align-items: center;
   grid-template-columns: 2.4rem 2.4rem;
