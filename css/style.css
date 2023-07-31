@@ -222,10 +222,10 @@ ul, li {
   align-items: center;
   grid-template-columns: 4.4rem 7.9rem 9.2rem;
   column-gap: 3.2rem;
-  color: #fff;
+  color: red;
 }
 
-/* line 21, ../grid-p/sass/content/_insideBox.sass */
+/* line 22, ../grid-p/sass/content/_insideBox.sass */
 .header__icon {
   display: grid;
   align-items: center;
@@ -233,7 +233,7 @@ ul, li {
   column-gap: 2.4rem;
 }
 
-/* line 29, ../grid-p/sass/content/_insideBox.sass */
+/* line 30, ../grid-p/sass/content/_insideBox.sass */
 .main__item {
   display: grid;
   grid-template-columns: repeat(4, 29.5rem);
@@ -241,31 +241,31 @@ ul, li {
   gap: 2rem;
 }
 
-/* line 35, ../grid-p/sass/content/_insideBox.sass */
+/* line 36, ../grid-p/sass/content/_insideBox.sass */
 .main__item-1 {
   display: grid;
   padding: 1.6rem;
 }
 
-/* line 39, ../grid-p/sass/content/_insideBox.sass */
+/* line 40, ../grid-p/sass/content/_insideBox.sass */
 .main__item-2 {
   display: grid;
   padding: 1.6rem;
 }
 
-/* line 43, ../grid-p/sass/content/_insideBox.sass */
+/* line 44, ../grid-p/sass/content/_insideBox.sass */
 .main__item-3 {
   display: grid;
   padding: 1.6rem;
 }
 
-/* line 47, ../grid-p/sass/content/_insideBox.sass */
+/* line 48, ../grid-p/sass/content/_insideBox.sass */
 .main__item-4 {
   display: grid;
   padding: 1.6rem;
 }
 
-/* line 51, ../grid-p/sass/content/_insideBox.sass */
+/* line 52, ../grid-p/sass/content/_insideBox.sass */
 .main__down {
   display: flex;
   justify-content: space-between;
@@ -274,7 +274,7 @@ ul, li {
   width: 100%;
 }
 
-/* line 58, ../grid-p/sass/content/_insideBox.sass */
+/* line 59, ../grid-p/sass/content/_insideBox.sass */
 .main__text {
   display: flex;
   flex-direction: column;
@@ -282,14 +282,14 @@ ul, li {
   height: 100%;
 }
 
-/* line 67, ../grid-p/sass/content/_insideBox.sass */
+/* line 68, ../grid-p/sass/content/_insideBox.sass */
 .footer__link {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-/* line 72, ../grid-p/sass/content/_insideBox.sass */
+/* line 73, ../grid-p/sass/content/_insideBox.sass */
 .footer__item {
   display: grid;
   align-items: center;
@@ -297,7 +297,7 @@ ul, li {
   column-gap: 4.5rem;
 }
 
-/* line 78, ../grid-p/sass/content/_insideBox.sass */
+/* line 79, ../grid-p/sass/content/_insideBox.sass */
 .footer__icon {
   display: grid;
   align-items: center;
